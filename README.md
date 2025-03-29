@@ -12,7 +12,7 @@ We constructed and validated a simple model, LiveFbr, using 9 routine clinical b
 ## Dataset
 The dataset consists of two CSV files:
 - `train.csv`: Training dataset
-- `test.csv`: Validation dataset
+- `test.csv`: Testing dataset
 
 Columns removed from the dataset:
 - `Unnamed: 0`
@@ -50,26 +50,4 @@ Additionally, models such as Linear Regression, Random Forest, and Gradient Boos
 Training achieved a high accuracy:
 Best Testing Accuracy: **95.92%**
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PranavSingla122/Fatty-Liver-Analysis
-   cd your-repo-name
-   ```
-2. Install dependencies:
-   ```bash
-   pip install torch pandas scikit-learn numpy
-   ```
-3. Run the training script:
-   ```bash
-   python train.py
-   ```
-
-## Future Improvements
-- Experiment with different feature selection techniques.
-- Tune hyperparameters for better performance.
-- Extend to multi-class liver disease classification.
-
-## License
-This project is open-source and available under the MIT License.
 
